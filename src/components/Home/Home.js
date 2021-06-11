@@ -11,10 +11,13 @@ function Home() {
                 <div className="col-md-12 d-flex flex-column justify-content-center align-items-center text-white font-weight-bold">
                     <Zoom>
                     <h1 className="justify-content-center align-items-center font-weight-bold" style={{color: "#F4BB44"}}>ENLÈVEMENT ÉPAVE VÉHICULE </h1>
-                        <h3 className="btn-group d-inline mt-5">
-                            DES PROFESSIONNELS ÉPAVISTE GRATUIT ET AGRÉÉ VHU 
+                        <h2 className="btn-group d-inline mt-3">
+                            DES PROFESSIONNELS ÉPAVISTES GRATUIT ET AGRÉÉS VHU 
+                        </h2>
+                        <h3 className="btn-group d-inline mt-5 font-weight-bold" style={{color: "#800000"}}>
+                        Horaires : Du lundi au samedi de 10h a 18h
                         </h3>
-                        <h3 className="btn-group d-inline mt-5">
+                        <h3 className="btn-group d-inline mt-2">
                         📞 +33 69 58 32 98 7 
                         </h3>
                     </Zoom>
