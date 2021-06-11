@@ -1,0 +1,14 @@
+div .links li {
+    display: inline-block;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}
+
+/* social links */
+div .links {
+    margin: 19px 0 30px 0;
+    padding: 0;
+    font-size: 30px;
+ }
