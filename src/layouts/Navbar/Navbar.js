@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {HashLink as Link} from 'react-router-hash-link';
 import './Navbar.css';
-import logo from '../../images/logo.png'
+import logo from '../../images/newlogo.PNG'
 
 export default class Navbar extends Component{
     render(){ 
