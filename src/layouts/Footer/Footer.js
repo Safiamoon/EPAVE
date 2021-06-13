@@ -10,10 +10,10 @@ class Footer extends Component{
                         <div>
                             <div className="twelve columns">
                                 <ul className="copyright">
-                                    <h2 style={{color:`#F4BB44`}}>FLY DEUTSCH CARS</h2>   
+                                    <h2 style={{color:`#32CD32`}}>FDCR'S RECYCLAGE</h2>   
                                 </ul>
                                 <ul className="copyright">
-                                    <p style={{color:`#d83a3a`}}>📞 +33 69 58 32 98 7</p>   
+                                    <p style={{color:`#32CD32`}}>📞 +33 69 58 32 98 7</p>   
                                 </ul>
                                 <ul className="copyright">
                                     <p style={{"color" : "white"}}>11 Rue du Dr Fourniols, 95420 Magny-en-Vexin</p>   
