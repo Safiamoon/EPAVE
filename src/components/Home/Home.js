@@ -7,14 +7,11 @@ function Home() {
     
     return (
         <>
-            <div className="row p-0" style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),url('${landingImage}')`, backgroundRepeat:"no-repeat", minHeight:"92vh"}}>
-                <div className="col-md-12 d-flex flex-column justify-content-center align-items-center text-white font-weight-bold">
+            <div className="row p-0 pt-3" style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),url('${landingImage}')`, backgroundRepeat:"no-repeat", minHeight:"92vh", width:"100%"}}>
+                <div className="col-md-12 d-flex flex-column justify-content-center align-items-center text-white font-weight-bold" style={{width:"100%"}}>
                     <Zoom>
-                    <h1 className="justify-content-center align-items-center font-weight-bold" style={{color: "#F4BB44"}}>ENLÈVEMENT ÉPAVE VÉHICULE </h1>
-                        <h2 className="btn-group d-inline mt-3">
-                            DES PROFESSIONNELS ÉPAVISTES GRATUIT ET AGRÉÉS VHU
-                        </h2>
-                        <h3 className="btn-group d-inline mt-5 font-weight-bold" style={{color: "#800000"}}>
+                    <h1 className="justify-content-center align-items-center font-weight-bold" style={{color: "#32CD32"}}>ÉPAVISTE AGRÉÉ 100% GRATUIT</h1>
+                        <h3 className="btn-group d-inline mt-5 font-weight-bold text-white">
                         Horaires : Du lundi au samedi de 10h a 18h
                         </h3>
                         <h3 className="btn-group d-inline mt-2">

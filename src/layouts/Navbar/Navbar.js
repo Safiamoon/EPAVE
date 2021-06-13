@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import {HashLink as Link} from 'react-router-hash-link';
 import './Navbar.css';
-import logo from '../../images/newlogo.PNG'
+import logo from '../../images/logo5.PNG'
 
 export default class Navbar extends Component{
     render(){ 
       return (
         <>
-        <div className="nav sticky-top" style={{backgroundColor: "#333", minHeight: "4.5rem"}}>
+        <div className="nav sticky-top" style={{backgroundColor: "white", minHeight: "4rem"}}>
           <input type="checkbox" id="nav-check" />
           <div className="nav-header">
-            <div className="nav-title font-weight-bold pt-3" style={{color: "#F4BB44"}}>
-              <img className='logo' alt='' src={logo}></img>    FLY DEUTSCH CARS
+            <div className="nav-title font-weight-bold pt-1" style={{color: "#F4BB44"}}>
+              <img className='logo' alt='' src={logo}></img> 
             </div>
           </div>
           <div className="nav-btn">
@@ -22,15 +22,15 @@ export default class Navbar extends Component{
             </label>
           </div>
           
-          <div className="ml-auto nav-links">
+          <div className="ml-auto nav-links pt-4">
             <a className="nav-item isActive">
-              <Link className="nav-link text-light" smooth to="#">ACCUEIL</Link>
+              <Link className="nav-link font-weight-bold" style={{color: "#32CD32"}} smooth to="">ACCUEIL</Link>
             </a>
             <a className="nav-item">
-              <Link  className="nav-link text-light" smooth to="#about">PRÉSENTATION</Link>
+              <Link  className="nav-link font-weight-bold" style={{color: "#32CD32"}} smooth to="">PRÉSENTATION</Link>
             </a>
             <a className="nav-item">
-              <Link  className="nav-link text-light" smooth to="#about">FORMALITÉS</Link>
+              <Link  className="nav-link font-weight-bold" style={{color: "#32CD32"}} smooth to="">DOCUMENTS À FOURNIR</Link>
             </a>
           </div>
       </div>

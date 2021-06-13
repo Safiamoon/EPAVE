@@ -1,7 +1,6 @@
 .nav {
-    height: 50px;
     width: 100%;
-    background-color: #4d4d4d;
+    background-color: 	#006400;
     position: sticky;
   }
   
@@ -34,7 +33,7 @@
   }
   
   .nav > .nav-links > a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #E5E4E2;
   }
   
   .nav > #nav-check {
@@ -61,17 +60,17 @@
       display: block;
       width: 25px;
       height: 10px;
-      border-top: 2px solid #eee;
+      border-top: 2px solid #32CD32;
     }
     .nav > .nav-links {
       position: absolute;
       display: block;
       width: 100%;
-      background-color: #333;
+      background-color: white;
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
-      top: 50px;
+      top: 122px;
       left: 0px;
     }
     .nav > .nav-links > a {
