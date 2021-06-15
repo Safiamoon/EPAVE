@@ -24,7 +24,7 @@ export default class Navbar extends Component{
           
           <div className="ml-auto nav-links pt-4">
             <a className="nav-item isActive">
-              <Link className="nav-link font-weight-bold" style={{color: "#32CD32"}} smooth to="">ACCUEIL</Link>
+              <Link className="nav-link font-weight-bold" style={{color: "#32CD32"}} smooth to="#home">ACCUEIL</Link>
             </a>
             <a className="nav-item">
               <Link  className="nav-link font-weight-bold" style={{color: "#32CD32"}} smooth to="#about">PRÉSENTATION</Link>
