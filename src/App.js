@@ -7,6 +7,7 @@ import Footer from "./layouts/Footer/Footer";
 import About from './components/About/About';
 import How from './components/How';
 import Documents from './components/Documents';
+import ContactUs from './components/ContactForm';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <About />
       <How />
       <Documents />
+      <ContactUs />
       <Footer />
     </BrowserRouter>
     </>
