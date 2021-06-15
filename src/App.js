@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Footer from "./layouts/Footer/Footer";
 import About from './components/About/About';
 import How from './components/How';
+import Documents from './components/Documents';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Home />
       <About />
       <How />
+      <Documents />
       <Footer />
     </BrowserRouter>
     </>
