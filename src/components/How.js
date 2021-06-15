@@ -8,7 +8,6 @@ import Zoom from 'react-reveal/Zoom';
 function How () {
 
     return (
-        <>
         <section id="how" className="pt-5 pb-5" style={{backgroundColor: "grey", width:"100%"}}> 
                 <h1 className="display-4 font-weight-bold text-center pb-5" style={{color: "#32CD32"}}>COMMENT ÇA MARCHE</h1>
             <div className="card-deck" style={{marginLeft:"-2px", marginRight:"-2px"}}>
@@ -40,7 +39,6 @@ function How () {
                 </div>
             </div>
         </section>
-        </>
     )
 }
 

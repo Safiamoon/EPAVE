@@ -6,7 +6,6 @@ import logo from '../../images/logo5.PNG'
 export default class Navbar extends Component{
     render(){ 
       return (
-        <>
         <div className="nav sticky-top" style={{backgroundColor: "white", minHeight: "4rem"}}>
           <input type="checkbox" id="nav-check" />
           <div className="nav-header">
@@ -40,7 +39,6 @@ export default class Navbar extends Component{
             </a>
           </div>
       </div>
-      </>
       )
     }
 }

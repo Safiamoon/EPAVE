@@ -8,7 +8,6 @@ import Zoom from 'react-reveal/Zoom';
 function Documents () {
 
     return (
-        <>
         <section id="documents" className="pt-5 pb-5" style={{width:"100%"}}> 
             <h1 className="display-4 font-weight-bold text-center pb-5" style={{color: "#228B22"}}>DOCUMENTS À FOURNIR</h1>
             <div class="row" style={{marginLeft:"-2px", marginRight:"-2px"}}>
@@ -45,7 +44,6 @@ function Documents () {
             </div>
             </div>
         </section>
-        </>
     )
 }
 

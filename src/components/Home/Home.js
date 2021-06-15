@@ -6,7 +6,6 @@ import landingImage from '../../images/carRecycle2.jpg'
 function Home() {
     
     return (
-        <>
         <section id="home"> 
             <div className="row p-0 m-0" style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)),url('${landingImage}')`, backgroundRepeat:"no-repeat", minHeight:"95vh", width:"100%"}}>
                 <div className="col-md-12 d-flex flex-column justify-content-center align-items-center text-white font-weight-bold" style={{width:"100%"}}>
@@ -26,7 +25,6 @@ function Home() {
                 </div>
             </div>
         </section>
-        </>
     );
 }
 
