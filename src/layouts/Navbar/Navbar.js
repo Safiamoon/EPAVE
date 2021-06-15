@@ -35,6 +35,9 @@ export default class Navbar extends Component{
             <a className="nav-item">
               <Link  className="nav-link font-weight-bold" style={{color: "#32CD32"}} smooth to="#documents">DOCUMENTS À FOURNIR</Link>
             </a>
+            <a className="nav-item">
+              <Link  className="nav-link font-weight-bold" style={{color: "#32CD32"}} smooth to="#contact">CONTACT</Link>
+            </a>
           </div>
       </div>
       </>

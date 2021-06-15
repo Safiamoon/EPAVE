@@ -3,6 +3,19 @@ import emailjs from 'emailjs-com';
 import { Container, Col, Row, Image } from "react-bootstrap";
 
 export default function ContactUs () {
+
+    function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_803zvfo', 'template_x4vndlz', e.target, 'user_JwBgTX76npvb4UlwhZTM0')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+    }
+
     return(
         <section id="contact" style={{backgroundColor: "#228B22"}} >
         <Container className="pt-5 pb-5">
@@ -12,7 +25,7 @@ export default function ContactUs () {
             </Col> */}
             <Col className="align-self-center">
             <h1 className="display-5 font-weight-bold pb-4" style={{color: "white"}}>Contactez-nous</h1>
-                <form>
+                <form onSubmit={sendEmail}>
                     <div className="form-group">
                         <label for="name" className="text-white">Nom</label>
                         <input type="text" className="form-control" id="name" placeholder="Nom..." name="name" />
@@ -29,7 +42,7 @@ export default function ContactUs () {
                         <label for="message" className="text-white">Message</label>
                         <textarea className="form-control" id="message" placeholder="Message..." name="message"></textarea>
                     </div>
-                     <button type="button" class="btn btn-success">Envoyer</button>
+                     <button type="submit" className="btn btn-success" value="Send Message">Envoyer</button>
                 </form>
             </Col>
             </Row>
