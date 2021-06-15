@@ -16,9 +16,8 @@ function How () {
                     <img src={appointment} className="card-img-top" alt="..." />
                     <div className="card-body">
                     <h3 className="card-title font-weight-bold text-center"> Etape 1 : Prendre RDV</h3>
-                    <p className="card-text pt-3" style={{fontFamily:"Arial, sans-serif"}}>Sur le site, vous pouvez prendre rendez-vous avec un épaviste agréé.<br/>
-                    Votre demande de prise en charge en quelques clics via notre formulaire en ligne, 
-                    ou en quelques secondes via un appel téléphonique.</p>
+                    <p className="card-text pt-3" style={{fontFamily:"Arial, sans-serif"}}>Vous pouvez prendre rendez-vous avec un épaviste agréé, en appelant le numéro affiché sur la page.<br/>
+                    </p>
                     </div>
                 </div>
                 <div className="card">
