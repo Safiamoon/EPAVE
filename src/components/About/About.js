@@ -15,7 +15,7 @@ class About extends Component{
                                     <Image  src={location} alt="pic" width="100%" />
                                 </Col>
                                 <Col className="col-12 col-md-8 align-self-center">
-                                    <h1 className="display-5 font-weight-bold" style={{color: "#32CD32"}}>QUI SOMMES-NOUS ?</h1>
+                                    <h1 className="display-6 font-weight-bold" style={{color: "#32CD32"}}>QUI SOMMES-NOUS ?</h1>
                                     <br />
                                     <h2>Services d’enlèvement de véhicule dans tous les départements d'Ile-de-France : 75, 77, 78, 91, 92, 93, 94, 95,100% gratuit.</h2>
                                     <p className="text-justify" style={{color:`#0C2340`}}>

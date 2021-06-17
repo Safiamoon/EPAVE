@@ -10,7 +10,7 @@ function Home() {
             <div className="row p-0 m-0" style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)),url('${landingImage}')`, backgroundRepeat:"no-repeat", minHeight:"95vh", width:"100%"}}>
                 <div className="col-md-12 d-flex flex-column justify-content-center align-items-center text-white font-weight-bold" style={{width:"100%"}}>
                     <Zoom>
-                        <h1 className="display-3 pt-4 text-center justify-content-center align-items-center font-weight-bold" style={{color: "#228B22"}}>ENLÈVEMENT ÉPAVE 100% GRATUIT</h1>
+                        <h1 className="display-4 pt-4 text-center justify-content-center align-items-center font-weight-bold" style={{color: "#228B22"}}>ENLÈVEMENT ÉPAVE 100% GRATUIT</h1>
                         <h1 className="display-4 text-center justify-content-center align-items-center font-weight-bold text-white" >ÉPAVISTE AGRÉÉ CENTRE VHU</h1>
                         <h3 className="btn-group d-inline mt-5 font-weight-bold text-white">
                         Du lundi au samedi de 10h a 18h
