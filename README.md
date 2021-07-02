@@ -8,3 +8,8 @@
  - Bootstrap
  - HTML & CSS
  - EmailJS
+
+
+## Preview
+
+![capture1](/screenshot/capture1.PNG)
